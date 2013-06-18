@@ -5,11 +5,11 @@ core = 7.x
 projects[drupal][type] = core
 
 ; drupalaton_profile 
-projects[drupalaton_profile][type] = profile
-projects[drupalaton_profile][download][type] = git
-projects[drupalaton_profile][download][url] = git@github.com:csakiistvan/drupalaton_profile.git
-projects[drupalaton_profile][download][branch] = master
-projects[drupalaton_profile][directory_name] = drupalaton_profile
+projects[drupalaton][type] = profile
+projects[drupalaton][download][type] = git
+projects[drupalaton][download][url] = git@github.com:csakiistvan/drupalaton_profile.git
+projects[drupalaton][download][branch] = master
+projects[drupalaton][directory_name] = drupalaton_profile
 
 
 ; Contrib modules
