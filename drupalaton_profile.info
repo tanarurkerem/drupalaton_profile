@@ -1,0 +1,19 @@
+name = Drupalaton profile
+description = Drupal profile for Drupalaton website
+version = VERSION
+
+api = 2
+core = 7.x
+
+; core
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = dblog
+dependencies[] = file
+dependencies[] = rdf
