@@ -1,0 +1,14 @@
+name = Text format and Style
+description = Text format and CKeditor settings
+core = 7.x
+package = Drupalaton
+php = 5.2.4
+version = 7.x-1.0
+project = drupalaton_ckeditor
+dependencies[] = ckeditor
+dependencies[] = features
+dependencies[] = filter
+features[ckeditor_profile][] = Advanced
+features[features_api][] = api:1
+features[filter][] = filtered_html
+features[user_permission][] = use text format filtered_html

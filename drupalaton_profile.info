@@ -23,3 +23,5 @@ dependencies[] = admin_menu
 
 ; features
 dependencies[] = drupalaton_speakers
+dependencies[] = drupalaton_page
+dependencies[] = drupalaton_ckeditor

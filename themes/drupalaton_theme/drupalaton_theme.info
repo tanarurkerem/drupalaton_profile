@@ -2,7 +2,6 @@ screenshot  = screenshot.png
 name        = Drupalaton
 description = Theme for drupalaton
 core        = 7.x
-base theme  = bootstrap
 
 stylesheets[all][] = lib/bootstrap/css/bootstrap.min.css
 stylesheets[all][] = lib/bootstrap/css/bootstrap-responsive.min.css
@@ -24,10 +23,3 @@ features[] = comment_user_picture
 features[] = favicon
 features[] = main_menu
 features[] = secondary_menu
-
-settings[cdn_bootstrap] = 0
-settings[cdn_jquery] = 0
-
-; The base theme thinks the Bootstrap library was put in it's folder, exclude them.
-exclude[css][] = bootstrap/css/bootstrap.css
-exclude[css][] = bootstrap/css/bootstrap-responsive.css
