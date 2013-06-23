@@ -15,6 +15,13 @@ function drupalaton_speakers_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function drupalaton_speakers_views_api() {
+  return array("api" => "3.0");
+}
+
+/**
  * Implements hook_custom_pub_defaults().
  */
 function drupalaton_speakers_custom_pub_defaults() {
