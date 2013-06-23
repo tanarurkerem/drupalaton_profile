@@ -1,5 +1,5 @@
-  <div id="page-wrapper"><div id="page">
-
+  <div class="global">
+    
     <div id="header"><div class="section clearfix">
 
       <?php if ($logo): ?>
@@ -71,4 +71,5 @@
       <?php print render($page['footer']); ?>
     </div></div> <!-- /.section, /#footer -->
 
-  </div></div> <!-- /#page, /#page-wrapper -->
+  </div>
+

@@ -8,7 +8,18 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <?php print $scripts; ?>
+  
+    <!-- FACEBOOK -->
+  <meta property="fb:app_id" content="372862979453673">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.drupalaton.hu">
+  <meta property="og:title" content="<?php print $site_name; ?>">
+  <meta property="og:description" content="<?php print $site_name; ?>">
+  <meta property="og:image" content="<%= @getTheme() %>/img/drup_facebook.png">
+  <!-- / FACEBOOK -->
+  
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
