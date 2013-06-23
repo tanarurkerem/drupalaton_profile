@@ -17,3 +17,9 @@ dependencies[] = path
 dependencies[] = dblog
 dependencies[] = file
 dependencies[] = rdf
+
+; contrib
+dependencies[] = admin_menu
+
+; features
+dependencies[] = drupalaton_speakers
