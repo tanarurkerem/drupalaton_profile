@@ -30,32 +30,6 @@
         </div>
       </div>
     </div>
-        
-    <div id="header"><div class="section clearfix">
-
-      <?php if ($site_name || $site_slogan): ?>
-        <div id="name-and-slogan">
-          <?php if ($site_name): ?>
-            <?php if ($title): ?>
-              <div id="site-name"><strong>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </strong></div>
-            <?php else: /* Use h1 when the content title is empty */ ?>
-              <h1 id="site-name">
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </h1>
-            <?php endif; ?>
-          <?php endif; ?>
-
-          <?php if ($site_slogan): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
-          <?php endif; ?>
-        </div> <!-- /#name-and-slogan -->
-      <?php endif; ?>
-
-      <?php print render($page['header']); ?>
-
-    </div></div> <!-- /.section, /#header -->
 
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb"><?php print $breadcrumb; ?></div>
@@ -76,12 +50,6 @@
         <?php print render($page['content']); ?>
         <?php print $feed_icons; ?>
       </div></div> <!-- /.section, /#content -->
-
-      <?php if ($page['sidebar_first']): ?>
-        <div id="sidebar-first" class="column sidebar"><div class="section">
-          <?php print render($page['sidebar_first']); ?>
-        </div></div> <!-- /.section, /#sidebar-first -->
-      <?php endif; ?>
 
     </div></div> <!-- /#main, /#main-wrapper -->
 
