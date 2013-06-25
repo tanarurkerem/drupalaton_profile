@@ -1,5 +1,10 @@
   <div class="global">
-    
+    <?php if ($main_menu): ?>
+      <div id="navigation"><div class="section">
+        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
+      </div></div> <!-- /.section, /#navigation -->
+    <?php endif; ?>
+        
     <div id="header"><div class="section clearfix">
 
       <?php if ($logo): ?>
@@ -31,12 +36,6 @@
       <?php print render($page['header']); ?>
 
     </div></div> <!-- /.section, /#header -->
-
-    <?php if ($main_menu): ?>
-      <div id="navigation"><div class="section">
-        <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')), 'heading' => t('Main menu'))); ?>
-      </div></div> <!-- /.section, /#navigation -->
-    <?php endif; ?>
 
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb"><?php print $breadcrumb; ?></div>
