@@ -15,9 +15,9 @@
   <meta property="fb:app_id" content="372862979453673">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://www.drupalaton.hu">
-  <meta property="og:title" content="<?php print $site_name; ?>">
-  <meta property="og:description" content="<?php print $site_name; ?>">
-  <meta property="og:image" content="<%= @getTheme() %>/img/drup_facebook.png">
+  <meta property="og:title" content="Drupalaton">
+  <meta property="og:description" content="Drupalaton">
+  <meta property="og:image" content="http://drupalaton.hu/themes/drupalaton/img/drup_facebook.png">
   <!-- / FACEBOOK -->
   
 </head>
