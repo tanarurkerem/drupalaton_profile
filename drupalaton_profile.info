@@ -24,6 +24,7 @@ dependencies[] = diff
 dependencies[] = page_manager
 dependnecies[] = views_content
 dependencies[] = panels
+dependencies[] = jquery_update
 
 ; features
 dependencies[] = drupalaton_speakers

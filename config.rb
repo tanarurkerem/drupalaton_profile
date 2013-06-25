@@ -46,7 +46,7 @@ output_style = (environment == :development) ? :expanded : :compressed
 # To enable relative paths to assets via compass helper functions. Since Drupal
 # themes can be installed in multiple locations, we don't need to worry about
 # the absolute path to the theme from the server root.
-relative_assets = true
+relative_assets = false
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false

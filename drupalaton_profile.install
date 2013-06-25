@@ -22,6 +22,8 @@ function drupalaton_profile_install() {
   variable_set('node_admin_theme', '0');
   variable_set('theme_default', $default_theme);
   
+  // jQuery update
+  variable_set('jquery_update_jquery_version', '1.8');
   
   // Turn off the registration.
   variable_set('user_register', FALSE);

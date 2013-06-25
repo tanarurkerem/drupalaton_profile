@@ -5,7 +5,7 @@ core        = 7.x
 
 stylesheets[all][] = lib/bootstrap/css/bootstrap.min.css
 stylesheets[all][] = lib/bootstrap/css/bootstrap-responsive.min.css
-stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/style.css
 
 regions[help]           = Help
 regions[content]        = Content
@@ -13,7 +13,8 @@ regions[sidebar_first]  = First sidebar
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom
 
-; scripts[] = js/script.js
+scripts[] = js/scrollorama.js
+scripts[] = js/make-the-site-fancy.js
 
 features[] = logo
 features[] = name
