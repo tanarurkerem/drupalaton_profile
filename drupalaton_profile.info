@@ -21,8 +21,12 @@ dependencies[] = rdf
 ; contrib
 dependencies[] = admin_menu
 dependencies[] = diff
+dependencies[] = page_manager
+dependnecies[] = views_content
+dependencies[] = panels
 
 ; features
 dependencies[] = drupalaton_speakers
 dependencies[] = drupalaton_page
 dependencies[] = drupalaton_ckeditor
+dependencies[] = drupalaton_frontpage

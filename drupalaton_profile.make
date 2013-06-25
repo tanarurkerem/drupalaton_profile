@@ -39,6 +39,8 @@ projects[custom_pub][subdir] = contrib
 projects[custom_pub][version] = 1.3
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
+projects[panels][version] = 3.3
+projects[panels][subdir] = contrib
 
 ; User interface
 projects[ckeditor][type] = "module"

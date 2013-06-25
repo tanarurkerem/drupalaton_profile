@@ -39,6 +39,8 @@ function drupalaton_speakers_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   /* Field: Content: Job title */
   $handler->display->display_options['fields']['field_speaker_job_title']['id'] = 'field_speaker_job_title';
   $handler->display->display_options['fields']['field_speaker_job_title']['table'] = 'field_data_field_speaker_job_title';
@@ -55,11 +57,21 @@ function drupalaton_speakers_views_default_views() {
   $handler->display->display_options['fields']['field_speaker_photo']['id'] = 'field_speaker_photo';
   $handler->display->display_options['fields']['field_speaker_photo']['table'] = 'field_data_field_speaker_photo';
   $handler->display->display_options['fields']['field_speaker_photo']['field'] = 'field_speaker_photo';
+  $handler->display->display_options['fields']['field_speaker_photo']['label'] = '';
+  $handler->display->display_options['fields']['field_speaker_photo']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_speaker_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_speaker_photo']['settings'] = array(
     'image_style' => 'keynote_speaker',
     'image_link' => 'content',
   );
+  /* Field: Content: Link */
+  $handler->display->display_options['fields']['view_node']['id'] = 'view_node';
+  $handler->display->display_options['fields']['view_node']['table'] = 'views_entity_node';
+  $handler->display->display_options['fields']['view_node']['field'] = 'view_node';
+  $handler->display->display_options['fields']['view_node']['label'] = '';
+  $handler->display->display_options['fields']['view_node']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['view_node']['alter']['text'] = 'about [field_speaker_nickname]';
+  $handler->display->display_options['fields']['view_node']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
