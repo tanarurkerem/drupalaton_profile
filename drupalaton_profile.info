@@ -20,6 +20,7 @@ dependencies[] = rdf
 
 ; contrib
 dependencies[] = admin_menu
+dependencies[] = diff
 
 ; features
 dependencies[] = drupalaton_speakers
