@@ -6,14 +6,32 @@
         </nav>
       </div> <!-- #navigation -->
     <?php endif; ?>
+    <div class="landscape">
+      <div class="hills"></div>
+      <div class="boats">
+        <div id="smallboat" class="boat small"></div>
+        <div id="bigboat" class="boat big"></div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img alt="Drupalaton logo" src="<?php print $logo; ?>">
+        </div>
+      </div>
+      <div class="lake"></div>
+      <div class="info">
+        <h1>
+          <span></span>
+          Drupalaton, August 15-18, 2013, Hotel Helikon, Keszthely
+        </h1>
+      </div>
+      <div class="logo-link">
+        <div class="logo-link-inner">
+          <a itemprop="name" title="Drupalaton" href="/"></a>
+        </div>
+      </div>
+    </div>
         
     <div id="header"><div class="section clearfix">
-
-      <?php if ($logo): ?>
-        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-      <?php endif; ?>
 
       <?php if ($site_name || $site_slogan): ?>
         <div id="name-and-slogan">
