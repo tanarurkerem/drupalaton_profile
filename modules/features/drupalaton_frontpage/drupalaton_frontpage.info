@@ -2,6 +2,7 @@ name = Frontpage
 description = Frontpage with views and nodes
 core = 7.x
 package = Drupalaton
+php = 5.2.4
 version = 7.x-1.0
 project = drupalaton_frontpage
 dependencies[] = ctools

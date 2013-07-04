@@ -70,8 +70,11 @@ function drupalaton_speakers_views_default_views() {
   $handler->display->display_options['fields']['view_node']['field'] = 'view_node';
   $handler->display->display_options['fields']['view_node']['label'] = '';
   $handler->display->display_options['fields']['view_node']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['view_node']['alter']['text'] = 'about [field_speaker_nickname]';
+  $handler->display->display_options['fields']['view_node']['alter']['text'] = '<span>about</span> [title]';
+  $handler->display->display_options['fields']['view_node']['element_type'] = '0';
+  $handler->display->display_options['fields']['view_node']['element_label_type'] = '0';
   $handler->display->display_options['fields']['view_node']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['view_node']['element_wrapper_type'] = '0';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';

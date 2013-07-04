@@ -33,7 +33,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
   $handler->weight = 0;
   $handler->conf = array(
     'title' => 'Panel',
-    'no_blocks' => 0,
+    'no_blocks' => 1,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
@@ -82,7 +82,10 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'container_12 keynote',
+    );
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();

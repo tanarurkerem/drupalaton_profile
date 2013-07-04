@@ -204,33 +204,38 @@ p {
   }
 }
 
+.panel-pane  {
+
+  h2 {
+    margin: 0;
+    font-family: $oswald;
+    font-size: $base-font-size * 5;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: $sectiontitle;
+  }
+  h3 {
+    margin: 40px 0 0 0;
+    font-family: $oswald;
+    font-weight: 100;
+    font-size: $base-font-size * 2 + 6;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: $sectionsubtitle;
+  }
+}
+
 // keynote
-section.keynote {
+.panels-flexible-region-1-center {
   background-color: $sectiontitle;
+  width: 100%;
   
-  h2.section-title {
-    color: #fff;
-  }
-  h3.section-subtitle {
-    margin-bottom: 0;
-    color: #fff;
-  }
-  p {
-    margin-top: 10px;
-  }
-  .tabs h2 {
-    a {
-      background-color: $keynotetab;
-      margin-top: -1px;
-    }
-    a.tab-open {
-      background-color: $links;
+  .panel-pane {
+    .pane-title {
+      color: #fff;
     }
   }
-  .tab-content {
-    background-color: $links;
-  }
-  .speaker-name {
+   .speaker-name {
     font-size: $base-font-size * 2 + 8;
     color: $links;
     font-family: $oswald;
@@ -262,19 +267,25 @@ section.keynote {
     .image {
       margin-top: 25px;
     }
-  }
-  .keynote-wrapper {
-    overflow: hidden;
+    .tab-button {
+      width: 74%;
+      margin-top: 25px;
+      
+      a {
+        color: #fff;
+      }
+    }
   }
   .user .speaker-title {
     margin-bottom: 49px;
   }
-  .user.first .speaker-title,
-  .user.last .speaker-title {
+  .views-row-first .speaker-title,
+  .views-row-last .speaker-title {
     margin-bottom: 0;
   }
 }
-.tabs {
+
+/*.tabs {
   padding-top: 1em;
   height: 46px;
 
@@ -296,7 +307,7 @@ section.keynote {
       margin-right: 0;
     }
   }
-}
+}*/
 p.price {
   display: none;
 }
@@ -485,9 +496,12 @@ div.social {
 }
 .location,
 .sessionproposals,
-.about,
-.keynote {
+.about {
   margin-bottom: 60px;
+}
+.keynote {
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
 .registration {
   margin-bottom: 40px;
