@@ -25,7 +25,14 @@ p {
 .invisible {
   @include element-invisible;
 }
-
+h1.title {
+  margin: 0;
+  font-family: $oswald;
+  font-size: $base-font-size * 5;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: $sectiontitle;   
+}
 /**
  * navigation
  */
@@ -184,7 +191,6 @@ p {
   section {
     padding-top: 2.5em;
   }
-
   h2.section-title{
     margin: 0;
     font-family: $oswald;
@@ -230,7 +236,7 @@ p {
   background-color: $sectiontitle;
   width: 100%;
   
-  .panel-pane {
+  .keynote {
     .pane-title {
       color: #fff;
     }
@@ -342,10 +348,24 @@ section {
 }
 // about
 .about {
+  margin-top: 25px;
   .event-data {
     background: url("../img/drupalaton_hungary.jpg") no-repeat scroll top right transparent;
     padding: 20px 0;
     margin-bottom: 20px;
+  }
+}
+.about-buttons {
+  .tab-button {
+    width: 25%;
+    float: left;
+    
+    a {
+      color: #fff;
+    }
+    &.center {
+      margin: 0 30px;
+    }
   }
 }
 .sponsors {
