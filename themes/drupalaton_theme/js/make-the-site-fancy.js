@@ -36,7 +36,7 @@
         
         scrollorama
         .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 200, end: 650  })
-        .animate('.cloud2', { delay: 0, duration: 800, property: 'left', start: 330, end: 900  })
+        .animate('.cloud2', { delay: 0, duration: 801, property: 'left', start: 330, end: 900  })
         .animate('.cloud3', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
         .animate('.cloud4', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
         
