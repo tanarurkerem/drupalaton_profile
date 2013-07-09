@@ -7,6 +7,12 @@
     </div> <!-- #navigation -->
   <?php endif; ?>
   <div class="landscape">
+    <div class="clouds">
+      <div class="cloud cloud1"></div>
+      <div class="cloud cloud2"></div>
+      <div class="cloud cloud3"></div>
+      <div class="cloud cloud4"></div>
+    </div>
     <div class="hills"></div>
     <div class="boats">
       <div id="smallboat" class="boat small"></div>

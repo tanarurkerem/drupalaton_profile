@@ -196,6 +196,65 @@ body.front {
      }
   }
 }
+
+// clouds in header
+.clouds {
+  .cloud {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+  }
+  .cloud-left {
+    background-image: url("../img/cloud_left.svg");
+  }
+  .cloud-right {
+    background-image: url("../img/cloud_right.svg");
+  }
+  .cloud1 {
+    width: 100px;
+    height: 40px;
+    background-size: 100px auto;
+  }
+  .cloud2 {
+    width: 122px;
+    height: 52px;
+    background-size: 122px auto;
+  }
+  .cloud3 {
+    width: 122px;
+    height: 52px;
+    background-size: 122px auto;
+  }
+  .cloud4 {
+    width: 166px;
+    height: 70px;
+    background-size: 166px auto;
+  }
+  .cloud5 {
+    top: 43px;
+    width:142px;
+    height: 60px;
+    background-size: 142px auto;
+  }
+  .cloud6,
+  .cloud8 {
+    width: 71px;
+    height: 30px;
+    background-size: 71px auto;
+  }
+  .cloud7,
+  .cloud9 {
+    width: 49px;
+    height: 21px;
+    background-size: 49px auto;
+  }
+  .cloud10 {
+    width: 115px;
+    height: 49px;
+    background-size: 115px auto;
+  }
+}
+
 body.not-front {
   .landscape {
     background: url("../img/sky.png") repeat-x scroll 0 0 transparent;

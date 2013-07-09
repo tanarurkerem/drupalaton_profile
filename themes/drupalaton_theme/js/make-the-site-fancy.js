@@ -2,7 +2,8 @@
   Drupal.behaviors.drupalaton_theme = {
     attach: function (context) {   
 
-      var scrollorama = $.scrollorama({ blocks: '.boats' });
+      var scrollorama = $.scrollorama({ blocks: '.boats, .clouds' });
+      
       var width = $(document).width();
       
       function addclasstonav() {
@@ -28,11 +29,23 @@
       }
       
       $('.boats').css('width', width);
+      $('.clouds').css('width', width);
     
       if (width >= 980) {
         addclasstonav();
         
         scrollorama
+        .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 200, end: 650  })
+        .animate('.cloud2', { delay: 0, duration: 800, property: 'left', start: 330, end: 900  })
+        .animate('.cloud3', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+        .animate('.cloud4', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+        
+        .animate('.cloud5', { delay: 0, duration: 800, property: 'left', start: 249, end: 600  })
+        .animate('.cloud6', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+        .animate('.cloud7', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+        .animate('.cloud8', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+        .animate('.cloud9', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
+        .animate('.cloud10', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
         .animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
         .animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  });
       }
