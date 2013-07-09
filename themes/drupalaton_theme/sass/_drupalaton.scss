@@ -79,110 +79,202 @@ h1.title {
 /**
  * landscape
  */
-.landscape {
-  background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
-  height: 800px;
-  position: relative;
-}
-.hills {
-  background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
-  display: block;
-  height: 96px;
-  width: 745px;
-  position: absolute;
-  top: 162px;
-}
-.boats {
-  width: 100%;
-  position: relative;
-  height: 100px;
-  margin: 0;
-  top: 174px;
-
-  .boat {
-    position: absolute;
-  }
-  #smallboat {
-    background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
-    height: 60px;
-    width: 30px;
-    top: 25px;
-  }
-  #bigboat {
-    background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
-    height: 77px;
-    top: 0;
-    width: 66px;
-  }
-}
-.lake {
-  height: 800px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background: url("../img/water.png") repeat-x scroll 0 0 transparent;
-}
-.logo {
-  position: absolute;
-  text-align: right;
-  top: 189px;
-  width: 100%;
-
-  a {
-    display: block;
-    margin: 0 auto;
-  }
-  .logo-inner {
-    width: 960px;
-    margin: 0 auto;
-    padding: 0 $dekstopgutter;
-  }
-}
-.info {
-  height: 400px;
-  margin-top: 30px;
-  position: absolute;
-  top: 288px;
-  width: 100%;
-
-  h1 {
-    color: transparent;
-    display: block;
-    height: 100%;
+body.front {
+  .landscape {
+    background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
+    height: 800px;
     position: relative;
-    text-indent: -9000em;
-    width: 960px;
-    margin: 0 auto;
-
-    span {
-      background-repeat: no-repeat;
+  }
+  .hills {
+    background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 96px;
+    width: 745px;
+    position: absolute;
+    top: 162px;
+  }
+  .boats {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    top: 174px;
+  
+    .boat {
+      position: absolute;
+    }
+    #smallboat {
+      background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+      height: 60px;
+      width: 30px;
+      top: 25px;
+    }
+    #bigboat {
+      background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+      height: 77px;
+      top: 0;
+      width: 66px;
+    }
+  }
+  .lake {
+    height: 800px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url("../img/water_02.png") repeat-x scroll 0 0 transparent;
+  }
+  .logo {
+    position: absolute;
+    text-align: right;
+    top: 189px;
+    width: 100%;
+  
+    a {
+      display: block;
+      margin: 0 auto;
+    }
+    .logo-inner {
+      width: 960px;
+      margin: 0 auto;
+      padding: 0 $dekstopgutter;
+    }
+  }
+  .info {
+    height: 400px;
+    margin-top: 30px;
+    position: absolute;
+    top: 288px;
+    width: 100%;
+  
+    h1 {
+      color: transparent;
       display: block;
       height: 100%;
-      position: absolute;
-      width: 100%;
-      background-image: url("../img/big_typo.svg");
+      position: relative;
+      text-indent: -9000em;
+      width: 960px;
+      margin: 0 auto;
+  
+      span {
+        background-repeat: no-repeat;
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        background-image: url("../img/big_typo.svg");
+      }
     }
   }
+  .logo-link {
+    width: 100%;
+  
+    .logo-link-inner {
+      width: 960px;
+      margin: 0 auto;
+      position: relative;
+  
+      a {
+        height: 74px;
+        width: 345px;
+        position: absolute;
+        right: 0;
+        top: 190px;
+        display: block;
+      }
+    }
+  }
+  .rounded-corner .wrap-corner {
+    background-image: none;
+    background-color: transparent;
+    
+     .b-edge,  
+     .t-edge,
+     .l,
+     .r,
+     .l-edge {
+       background-image: none;
+     }
+  }
 }
-.logo-link {
-  width: 100%;
-
-  .logo-link-inner {
-    width: 960px;
-    margin: 0 auto;
+body.not-front {
+  .landscape {
+    background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
+    height: 320px;
     position: relative;
-
-    a {
-      height: 74px;
-      width: 345px;
+  }
+  .hills {
+    background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 96px;
+    width: 745px;
+    position: absolute;
+    top: 162px;
+  }
+  .boats {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    top: 174px;
+  
+    .boat {
       position: absolute;
-      right: 0;
-      top: 190px;
+    }
+    #smallboat {
+      background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
+      height: 60px;
+      width: 30px;
+      top: 25px;
+    }
+    #bigboat {
+      background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
+      height: 77px;
+      top: 0;
+      width: 66px;
+    }
+  }
+  .lake {
+    height: 320px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url("../img/water_02_small.png") repeat-x scroll 0 0 transparent;
+  }
+  .logo {
+    position: absolute;
+    text-align: right;
+    top: 189px;
+    width: 100%;
+  
+    a {
       display: block;
+      margin: 0 auto;
+    }
+    .logo-inner {
+      width: 960px;
+      margin: 0 auto;
+      padding: 0 $dekstopgutter;
+    }
+  }  
+  .logo-link {
+    width: 100%;
+  
+    .logo-link-inner {
+      width: 960px;
+      margin: 0 auto;
+      position: relative;
+  
+      a {
+        height: 74px;
+        width: 345px;
+        position: absolute;
+        right: 0;
+        top: 190px;
+        display: block;
+      }
     }
   }
 }
-
 /**
  * content
  */
@@ -230,7 +322,43 @@ h1.title {
     color: $sectionsubtitle;
   }
 }
+// node page 
+body.page-node {
+  h1.title {
+    margin-top: 50px;
+  }
+  .node {
+    position: relative;
+  }
+  .field-name-field-sponsor-logo {
+    margin-top: -89px;
+    position: absolute;
+    right: 0;
+  }
+}
 
+// sponsors row in frontpage 
+body.front .sponsors {
+  padding: 20px 0;
+  
+  h3 {
+    font-family: $oswald;
+    font-size: $base-font-size *2;
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+    float: left;
+    margin: 17px 20px 0 0;
+  }
+  .views-row {
+    float: left;
+    margin-right: 40px;
+  }
+  .sponsor-row {
+    @include clearfix;
+    margin-bottom: 10px
+  }
+}
 // keynote
 .panels-flexible-region-1-center {
   background-color: $sectiontitle;

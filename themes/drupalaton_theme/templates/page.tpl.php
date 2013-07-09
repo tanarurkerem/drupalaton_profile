@@ -18,12 +18,6 @@
       </div>
     </div>
     <div class="lake"></div>
-    <div class="info">
-      <h1>
-        <span></span>
-        Drupalaton, August 15-18, 2013, Hotel Helikon, Keszthely
-      </h1>
-    </div>
     <div class="logo-link">
       <div class="logo-link-inner">
         <a itemprop="name" title="Drupalaton" href="/"></a>
