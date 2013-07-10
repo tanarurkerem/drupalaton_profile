@@ -429,7 +429,7 @@ body.front .sponsors {
   }
 }
 // keynote
-.panels-flexible-region-1-center {
+.panels-flexible-row-first {
   background-color: $sectiontitle;
   width: 100%;
   
@@ -437,54 +437,54 @@ body.front .sponsors {
     .pane-title {
       color: #fff;
     }
-  }
    .speaker-name {
-    font-size: $base-font-size * 2 + 8;
-    color: $links;
-    font-family: $oswald;
-    line-height: 100%;
-    text-transform: uppercase;
-    font-weight: bold; 
-  }
-  .speaker-title {
-    font-size: $base-font-size + 8;
-    font-family: $oswald;
-    line-height: 110%;
-    text-transform: uppercase;
-    font-weight: bold;    
-    color: $sectiontitle-40;
-  }
-  .speaker-nick {
-    color: #fff;
-    font-size: $base-font-size + 8;
-    font-family: $oswald;
-    line-height: 110%;
-    text-transform: uppercase;
-    font-weight: bold;    
-  }
-  .user {
-    float: left;
-    margin: 30px 7px 22px 7px;
-    width: 300px;
-    
-    .image {
-      margin-top: 25px;
+      font-size: $base-font-size * 2 + 8;
+      color: $links;
+      font-family: $oswald;
+      line-height: 100%;
+      text-transform: uppercase;
+      font-weight: bold; 
     }
-    .tab-button {
-      width: 74%;
-      margin-top: 25px;
+    .speaker-title {
+      font-size: $base-font-size + 8;
+      font-family: $oswald;
+      line-height: 110%;
+      text-transform: uppercase;
+      font-weight: bold;    
+      color: $sectiontitle-40;
+    }
+    .speaker-nick {
+      color: #fff;
+      font-size: $base-font-size + 8;
+      font-family: $oswald;
+      line-height: 110%;
+      text-transform: uppercase;
+      font-weight: bold;    
+    }
+    .user {
+      float: left;
+      margin: 30px 7px 22px 7px;
+      width: 300px;
       
-      a {
-        color: #fff;
+      .image {
+        margin-top: 25px;
+      }
+      .tab-button {
+        width: 74%;
+        margin-top: 25px;
+        
+        a {
+          color: #fff;
+        }
       }
     }
-  }
-  .user .speaker-title {
-    margin-bottom: 49px;
-  }
-  .views-row-first .speaker-title,
-  .views-row-last .speaker-title {
-    margin-bottom: 0;
+    .user .speaker-title {
+      margin-bottom: 49px;
+    }
+    .views-row-first .speaker-title,
+    .views-row-last .speaker-title {
+      margin-bottom: 0;
+    }  
   }
 }
 

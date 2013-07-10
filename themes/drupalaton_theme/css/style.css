@@ -1440,16 +1440,16 @@ body.front .sponsors .sponsor-row {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003432}}
-.panels-flexible-region-1-center {
+.panels-flexible-row-first {
   background-color: #082637;
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003437}}
-.panels-flexible-region-1-center .keynote .pane-title {
+.panels-flexible-row-first .keynote .pane-title {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003441}}
-.panels-flexible-region-1-center .speaker-name {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003440}}
+.panels-flexible-row-first .keynote .speaker-name {
   font-size: 36px;
   color: #e9590a;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1457,8 +1457,8 @@ body.front .sponsors .sponsor-row {
   text-transform: uppercase;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003449}}
-.panels-flexible-region-1-center .speaker-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003448}}
+.panels-flexible-row-first .keynote .speaker-title {
   font-size: 22px;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
   line-height: 110%;
@@ -1466,8 +1466,8 @@ body.front .sponsors .sponsor-row {
   font-weight: bold;
   color: #9da9af;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003457}}
-.panels-flexible-region-1-center .speaker-nick {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003456}}
+.panels-flexible-row-first .keynote .speaker-nick {
   color: #fff;
   font-size: 22px;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1475,32 +1475,32 @@ body.front .sponsors .sponsor-row {
   text-transform: uppercase;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003465}}
-.panels-flexible-region-1-center .user {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003464}}
+.panels-flexible-row-first .keynote .user {
   float: left;
   margin: 30px 7px 22px 7px;
   width: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003470}}
-.panels-flexible-region-1-center .user .image {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003469}}
+.panels-flexible-row-first .keynote .user .image {
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003473}}
-.panels-flexible-region-1-center .user .tab-button {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003472}}
+.panels-flexible-row-first .keynote .user .tab-button {
   width: 74%;
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003477}}
-.panels-flexible-region-1-center .user .tab-button a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003476}}
+.panels-flexible-row-first .keynote .user .tab-button a {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003482}}
-.panels-flexible-region-1-center .user .speaker-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003481}}
+.panels-flexible-row-first .keynote .user .speaker-title {
   margin-bottom: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003486}}
-.panels-flexible-region-1-center .views-row-first .speaker-title,
-.panels-flexible-region-1-center .views-row-last .speaker-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003485}}
+.panels-flexible-row-first .keynote .views-row-first .speaker-title,
+.panels-flexible-row-first .keynote .views-row-last .speaker-title {
   margin-bottom: 0;
 }
 
