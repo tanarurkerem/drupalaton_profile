@@ -1175,72 +1175,74 @@ body.front .logo-link .logo-link-inner a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003186}}
 body.front .rounded-corner .wrap-corner {
+  background-color: transparent !important;
   background-image: none;
-  background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003195}}
 body.front .rounded-corner .wrap-corner .b-edge,
 body.front .rounded-corner .wrap-corner .t-edge,
 body.front .rounded-corner .wrap-corner .l,
 body.front .rounded-corner .wrap-corner .r,
-body.front .rounded-corner .wrap-corner .l-edge {
+body.front .rounded-corner .wrap-corner .l-edge,
+body.front .rounded-corner .wrap-corner .r-edge {
   background-image: none;
+  background-color: transparent !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003203}}
 .clouds {
   height: 100px;
   margin: 0;
   width: 100%;
   top: 20px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003209}}
 .clouds .cloud {
   background-repeat: no-repeat;
   position: absolute;
   top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003214}}
 .clouds .cloud-left {
   background-image: url("../img/cloud_left.svg");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003217}}
 .clouds .cloud-right {
   background-image: url("../img/cloud_right.svg");
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003220}}
 .clouds .cloud1 {
   width: 100px;
   height: 40px;
   background-size: 100px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003225}}
 .clouds .cloud2 {
   width: 122px;
   height: 52px;
   background-size: 122px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003230}}
 .clouds .cloud3 {
   width: 122px;
   height: 52px;
   background-size: 122px auto;
   top: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003236}}
 .clouds .cloud4 {
   width: 166px;
   height: 70px;
   background-size: 166px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003241}}
 .clouds .cloud5 {
   top: 43px;
   width: 142px;
   height: 60px;
   background-size: 142px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003248}}
 .clouds .cloud6,
 .clouds .cloud8 {
   width: 71px;
@@ -1248,7 +1250,7 @@ body.front .rounded-corner .wrap-corner .l-edge {
   background-size: 71px auto;
   top: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003255}}
 .clouds .cloud7,
 .clouds .cloud9 {
   width: 49px;
@@ -1256,20 +1258,20 @@ body.front .rounded-corner .wrap-corner .l-edge {
   background-size: 49px auto;
   top: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003261}}
 .clouds .cloud10 {
   width: 115px;
   height: 49px;
   background-size: 115px auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003269}}
 body.not-front .landscape {
   background: url("../img/sky.png") repeat-x scroll 0 0 transparent;
   height: 320px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003274}}
 body.not-front .hills {
   background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
   display: block;
@@ -1278,7 +1280,7 @@ body.not-front .hills {
   position: absolute;
   top: 109px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003282}}
 body.not-front .boats {
   width: 100%;
   position: relative;
@@ -1286,25 +1288,25 @@ body.not-front .boats {
   margin: 0;
   top: 174px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003289}}
 body.not-front .boats .boat {
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003292}}
 body.not-front .boats #smallboat {
   background: url("../img/boat_small.svg") no-repeat scroll 0 0 transparent;
   height: 60px;
   width: 30px;
   top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003298}}
 body.not-front .boats #bigboat {
   background: url("../img/boat_big.svg") no-repeat scroll 0 0 transparent;
   height: 77px;
   top: 0;
   width: 66px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003305}}
 body.not-front .lake {
   height: 320px;
   position: absolute;
@@ -1312,35 +1314,35 @@ body.not-front .lake {
   width: 100%;
   background: url("../img/water_02_small.png") repeat-x scroll 0 0 transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003312}}
 body.not-front .logo {
   position: absolute;
   text-align: right;
   top: 189px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003318}}
 body.not-front .logo a {
   display: block;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003322}}
 body.not-front .logo .logo-inner {
   width: 960px;
   margin: 0 auto;
   padding: 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003328}}
 body.not-front .logo-link {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003331}}
 body.not-front .logo-link .logo-link-inner {
   width: 960px;
   margin: 0 auto;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003336}}
 body.not-front .logo-link .logo-link-inner a {
   height: 74px;
   width: 345px;
@@ -1353,11 +1355,11 @@ body.not-front .logo-link .logo-link-inner a {
 /**
  * content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003352}}
 .content section {
   padding-top: 2.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003355}}
 .content h2.section-title {
   margin: 0;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1366,7 +1368,7 @@ body.not-front .logo-link .logo-link-inner a {
   text-transform: uppercase;
   color: #082637;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003363}}
 .content h3.section-subtitle {
   margin: 40px 0 0 0;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1377,7 +1379,7 @@ body.not-front .logo-link .logo-link-inner a {
   color: #1675af;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003376}}
 .panel-pane h2 {
   margin: 0;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1386,7 +1388,7 @@ body.not-front .logo-link .logo-link-inner a {
   text-transform: uppercase;
   color: #082637;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003384}}
 .panel-pane h3 {
   margin: 40px 0 0 0;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1397,26 +1399,26 @@ body.not-front .logo-link .logo-link-inner a {
   color: #1675af;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003396}}
 body.page-node h1.title {
   margin-top: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003399}}
 body.page-node .node {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003402}}
 body.page-node .field-name-field-sponsor-logo {
   margin-top: -89px;
   position: absolute;
   right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003410}}
 body.front .sponsors {
   padding: 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003413}}
 body.front .sponsors h3 {
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
   font-size: 28px;
@@ -1426,27 +1428,27 @@ body.front .sponsors h3 {
   float: left;
   margin: 17px 20px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003422}}
 body.front .sponsors .views-row {
   float: left;
   margin-right: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003426}}
 body.front .sponsors .sponsor-row {
   overflow: hidden;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003432}}
 .panels-flexible-region-1-center {
   background-color: #082637;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003437}}
 .panels-flexible-region-1-center .keynote .pane-title {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003441}}
 .panels-flexible-region-1-center .speaker-name {
   font-size: 36px;
   color: #e9590a;
@@ -1455,7 +1457,7 @@ body.front .sponsors .sponsor-row {
   text-transform: uppercase;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003449}}
 .panels-flexible-region-1-center .speaker-title {
   font-size: 22px;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1464,7 +1466,7 @@ body.front .sponsors .sponsor-row {
   font-weight: bold;
   color: #9da9af;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003457}}
 .panels-flexible-region-1-center .speaker-nick {
   color: #fff;
   font-size: 22px;
@@ -1473,30 +1475,30 @@ body.front .sponsors .sponsor-row {
   text-transform: uppercase;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003465}}
 .panels-flexible-region-1-center .user {
   float: left;
   margin: 30px 7px 22px 7px;
   width: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003470}}
 .panels-flexible-region-1-center .user .image {
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003473}}
 .panels-flexible-region-1-center .user .tab-button {
   width: 74%;
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003475}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003477}}
 .panels-flexible-region-1-center .user .tab-button a {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003482}}
 .panels-flexible-region-1-center .user .speaker-title {
   margin-bottom: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003486}}
 .panels-flexible-region-1-center .views-row-first .speaker-title,
 .panels-flexible-region-1-center .views-row-last .speaker-title {
   margin-bottom: 0;
@@ -1525,39 +1527,39 @@ body.front .sponsors .sponsor-row {
     }
   }
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003514}}
 p.price {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003518}}
 section {
   margin-top: -4.5em;
   padding-top: 4.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003522}}
 .tab-content {
   background-color: #1675af;
   padding: 40px 0 50px;
   margin-top: -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003528}}
 .tab-content p a {
   color: #8abad7;
   text-shadow: 0 -2px #082637;
   transition: color 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003533}}
 .tab-content p a:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003538}}
 .tab-content p, .tab-content ul, .tab-content li, .tab-content h3 {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003543}}
 .tab-button {
   display: block;
   color: #ffffff;
@@ -1566,7 +1568,7 @@ section {
   font-weight: bold;
   display: block;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   padding: 14px 30px 10px 30px;
   text-shadow: 0 -2px black;
   -webkit-border-radius: 6px;
@@ -1595,32 +1597,32 @@ section {
   transform: translate(0, 3px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003547}}
 .about {
   margin-top: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003547}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003549}}
 .about .event-data {
   background: url("../img/drupalaton_hungary.jpg") no-repeat scroll top right transparent;
   padding: 20px 0;
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003556}}
 .about-buttons .tab-button {
   width: 25%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003558}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003560}}
 .about-buttons .tab-button a {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003563}}
 .about-buttons .tab-button.center {
   margin: 0 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003569}}
 .sponsors .tab-button {
   position: relative;
   color: #fff;
@@ -1646,16 +1648,16 @@ section {
   text-align: center;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003579}}
 .sponsors .tabs h2 a {
   font-size: 17px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003583}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003585}}
 .contactmin .content {
   padding: 80px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003588}}
 .contactmin p {
   margin: 0;
   display: block;
@@ -1666,17 +1668,17 @@ section {
   font-size: 72px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003596}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003598}}
 .contactmin p span a {
   color: #1675af;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003604}}
 div.twitter {
   background-color: #082637;
   padding: 60px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003608}}
 div.twitter span {
   display: block;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1686,17 +1688,17 @@ div.twitter span {
   font-size: 67px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003617}}
 div.twitter span.second {
   color: #37aae1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003620}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003622}}
 div.newsletter {
   background-color: #1675af;
   padding: 60px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003626}}
 div.newsletter span {
   display: block;
   font-family: Oswald, Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -1706,15 +1708,15 @@ div.newsletter span {
   font-size: 67px;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003635}}
 div.newsletter span.second {
   color: #37aae1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003638}}
 div.newsletter span.first {
   color: #082637;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003640}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003642}}
 div.newsletter input.email {
   position: relative;
   color: #082637;
@@ -1739,7 +1741,7 @@ div.newsletter input.email {
   text-align: left;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003662}}
 div.newsletter input.button {
   position: relative;
   color: #fff;
@@ -1766,7 +1768,7 @@ div.newsletter input.button {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003673}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003675}}
 div.social {
   background-color: #ef5825;
   padding: 60px 0;
@@ -1776,7 +1778,7 @@ div.social {
   text-transform: uppercase;
   line-height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003683}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003685}}
 div.social p {
   font-size: 67px;
   font-weight: bold;
@@ -1784,14 +1786,14 @@ div.social p {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003692}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003694}}
 .partner-link {
   background: #fff;
   border: 1px solid #cccccc;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003700}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003702}}
 .sponsor-link:hover,
 .sponsor-link:focus,
 .partner-link:hover,
@@ -1799,7 +1801,7 @@ div.social p {
   border-color: #f0a303;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003708}}
 .location-area {
   background: #e7e7e7;
   border: 1px solid #cccccc;
@@ -1807,30 +1809,30 @@ div.social p {
   height: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003716}}
 .location,
 .sessionproposals,
 .about {
   margin-bottom: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003717}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003719}}
 .keynote {
   margin-bottom: 20px;
   margin-top: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003723}}
 .registration {
   margin-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003724}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003726}}
 .about-wrapper {
   margin-top: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003727}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003729}}
 .keynote-wrapper {
   margin-top: 60px;
 }
@@ -1839,108 +1841,108 @@ div.social p {
  * device fixes
  */
 @media all and (min-width: 960px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003737}}
   #nav {
     width: 960px;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003741}}
   .tab-content .content {
     width: 960px;
     margin: 0 auto;
   }
 }
 @media all and (min-width: 600px) and (max-width: 999px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003755}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003757}}
   section.keynote h2.section-title {
     padding-left: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003758}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003760}}
   section.keynote .user {
     float: none;
     padding-left: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003763}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003765}}
   #nav ul li {
     margin: 0 5px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003766}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003768}}
   #nav ul li a {
     font-size: 14px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003772}}
   .container_12 {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003775}}
   .container_12 .wrapper {
     padding: 0 40px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003777}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003779}}
   body {
     min-width: 600px;
     max-width: 999px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003783}}
   .hills {
     width: 600px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003784}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003786}}
   .logo-link .logo-link-inner {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003789}}
   .logo-link .logo-link-inner a {
     right: 90%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003792}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003794}}
   .logo .logo-inner {
     width: 100%;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003796}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003798}}
   .logo .logo-inner img {
     right: 10%;
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003805}}
   .lake,
   .landscape {
     height: 644px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003806}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003808}}
   .info {
     height: 285px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003809}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003811}}
   .info h1 {
     width: 600px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003814}}
   .info h1 span {
     background-size: 100% auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003817}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003819}}
   .about .event-data {
     background-size: 40% auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003820}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003822}}
   .sponsors .tab-button {
     width: 90%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003825}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003827}}
   .newsletter .container_12,
   .twitter .container_12,
   .social .container_12 {
@@ -1948,7 +1950,7 @@ div.social p {
     max-width: 86%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003832}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003834}}
   .contactmin p,
   div.newsletter span,
   div.twitter span,
@@ -1956,217 +1958,217 @@ div.social p {
     font-size: 56px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003835}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003837}}
   div.newsletter input.email {
     width: 59%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003838}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003840}}
   .tabs h2 a span {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003841}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003843}}
   p.price {
     display: block;
   }
 }
 @media all and (max-width: 599px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003851}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003853}}
   body {
     max-width: 599px;
     min-width: 100px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003856}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003858}}
   section.keynote h2.section-title {
     padding-left: 15px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003859}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003861}}
   section.keynote .user {
     float: none;
     padding-left: 10px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003864}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003866}}
   .container_12 {
     width: 100%;
     max-width: 599px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003868}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003870}}
   #nav ul {
     padding-left: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003871}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003873}}
   #nav ul li a {
     color: #fff;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003875}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003877}}
   .landscape {
     height: 492px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003878}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003880}}
   .landscape .hills {
     width: 100%;
     background-position: -392px 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003882}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003884}}
   .landscape .logo {
     top: 196px;
     right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003886}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003888}}
   .landscape .logo .logo-inner {
     width: 100%;
     max-width: 599px;
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003891}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003893}}
   .landscape .logo .logo-inner img {
     margin: 0 30px 0 0;
     width: 280px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003897}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003899}}
   .landscape .info {
     height: 262px;
     margin-top: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003901}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003903}}
   .landscape .info h1 {
     width: 100%;
     max-width: 500px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003905}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003907}}
   .landscape .info h1 span {
     background-size: 89% auto;
     background-position: 18px 0;
     margin-left: 0;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003913}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003915}}
   .landscape .lake {
     height: 492px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003916}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003918}}
   .landscape .logo-link-inner {
     width: 100%;
     max-width: 599px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003920}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003922}}
   .landscape .logo-link-inner a {
     right: 17px;
     top: 193px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003927}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003929}}
   .tabs {
     height: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003930}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003932}}
   .tabs h2 {
     float: left;
     width: 30%;
     margin: 0 0 0 2%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003935}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003937}}
   .tabs h2.last {
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003938}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003940}}
   .tabs h2 span {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003941}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003943}}
   .tabs h2.middle {
     margin: 0 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003944}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003946}}
   .tabs h2 a {
     padding: 5px;
     font-size: 14px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003950}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003952}}
   .sponsors .tabs h2 a {
     font-size: 14px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003954}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003956}}
   .content .wrapper {
     padding: 0 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003959}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003961}}
   .twitter span,
   .newsletter form {
     padding: 0 20px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003963}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003965}}
   div.twitter span,
   div.newsletter span {
     font-size: 32px;
     line-height: 120%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003973}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003975}}
   div.newsletter input.email {
     float: none;
     width: 80%;
     margin: 20px 0 0 0;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003979}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003981}}
   div.newsletter input.button {
     width: 100%;
     float: none;
     margin: 20px 0 0 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003985}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003987}}
   .navigation {
     height: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003988}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003990}}
   .content h2.section-title {
     font-size: 42px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003991}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003993}}
   .about .event-data {
     padding-bottom: 180px;
     background-size: 100% auto;
     background-position: 0 bottom;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003997}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003999}}
   .contactmin p {
     font-size: 30px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031002}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031004}}
   .sponsors .tab-button {
     width: 77%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031007}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031009}}
   .boats .boat {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031012}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031014}}
   .tab-content p.price {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031017}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031019}}
   div.social img {
     height: 28px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031020}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031022}}
   div.social p {
     padding-left: 20px;
     padding-right: 20px;
@@ -2175,46 +2177,46 @@ div.social p {
   }
 }
 @media all and (max-width: 1300px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031029}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031031}}
   .hills {
     background-position: -320px 0;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031037}}
   p {
     font-size: 16px;
     line-height: 140%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031041}}
   .landscape {
     height: 440px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031042}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031044}}
   .landscape .lake {
     height: 440px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031046}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031048}}
   .about-wrapper, .location, .sessionproposals {
     margin-top: 40px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031049}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031051}}
   .navigation #nav-toggle {
     height: 30px;
     background-size: 70% auto;
     background-position: 60% center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031055}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031057}}
   #nav ul li a {
     font-size: 12px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031063}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\000031065}}
   .landscape .info h1 span {
     background-size: 270px auto;
     margin-left: 0.2em;

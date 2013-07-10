@@ -184,15 +184,17 @@ body.front {
     }
   }
   .rounded-corner .wrap-corner {
+    background-color: transparent !important;
     background-image: none;
-    background-color: transparent;
     
      .b-edge,  
      .t-edge,
      .l,
      .r,
-     .l-edge {
+     .l-edge,
+     .r-edge {
        background-image: none;
+       background-color: transparent !important;
      }
   }
 }
