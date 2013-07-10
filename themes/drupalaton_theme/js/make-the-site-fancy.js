@@ -1,11 +1,10 @@
 (function ($) {
   Drupal.behaviors.drupalaton_theme = {
     attach: function (context) {   
-
-      var scrollorama = $.scrollorama({ blocks: '.boats, .clouds' });
-      
+          
       var width = $(document).width();
       
+      // navigation position settings
       function addclasstonav() {
         $window = $(window);
         var $nav_height = $('.navigation').height();
@@ -28,26 +27,29 @@
         });
       }
       
-      $('.boats').css('width', width);
-      $('.clouds').css('width', width);
-    
+      // Parallax elements move settings
+      var scrollorama = $.scrollorama({ 
+        blocks: '.scrollorama'
+      });
+      
+      // function in normal width monitor, wider than 980 px
       if (width >= 980) {
         addclasstonav();
         
         scrollorama
-        .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 200, end: 650  })
-        .animate('.cloud2', { delay: 0, duration: 801, property: 'left', start: 330, end: 900  })
-        .animate('.cloud3', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('.cloud4', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        
-        .animate('.cloud5', { delay: 0, duration: 800, property: 'left', start: 249, end: 600  })
-        .animate('.cloud6', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('.cloud7', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('.cloud8', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('.cloud9', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('.cloud10', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
         .animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  });
+        .animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  })
+        .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 240, end: 650  })
+        .animate('.cloud2', { delay: 0, duration: 1200, property: 'left', start: 440, end: 650  })
+        .animate('.cloud3', { delay: 0, duration: 1200, property: 'left', start: 740, end: 650  })
+        .animate('.cloud4', { delay: 0, duration: 1200, property: 'left', start: 1100, end: 650  })
+        .animate('.cloud5', { delay: 0, duration: 1200, property: 'left', start: 350, end: 650  })
+        
+        .animate('.cloud6', { delay: 0, duration: 1200, property: 'left', start: 750, end: 650  })
+        .animate('.cloud7', { delay: 0, duration: 1200, property: 'left', start: 940, end: 650  })
+        .animate('.cloud8', { delay: 0, duration: 1200, property: 'left', start: 900, end: 650  })
+        .animate('.cloud9', { delay: 0, duration: 1200, property: 'left', start: 820, end: 650  })
+        .animate('.cloud10',{ delay: 0, duration: 1200, property: 'left', start: 1000, end: 650  });
       }
       else if (width < 979 && width >= 600) {
         addclasstonav();
@@ -60,35 +62,6 @@
       else if (width < 600) {
         // no move
       }
-    
-    
-      // Tabs content for About and Sponsors region
-      function changeTab(target) {
-        var link = $('[href=' + target + ']');
-        var section = link.parents('section');
-        var tabs = section.find('.tabs');
-    
-        tabs.find('a').removeClass("tab-open");
-        section.find('.tab-content').each(function () {
-          $(this).addClass('invisible');
-        });
-    
-        var current = target + '-tab';
-        $(current).removeClass('invisible').slideDown({
-          duration: 'fast',
-          easing: 'linear'
-        });
-        link.addClass("tab-open");
-      }
-    
-      var hash = location.hash;
-      if ('#about-keszthely' == hash || '#about-balaton' == hash || '#history-drupalaton' == hash || '#sponsors-silver-tab' == hash || '#sponsors-gold-tab' == hash || '#sponsors-diamond-tab' == hash || '#about-robert' == hash || '#about-swentel-tab' == hash || '#about-bram-tab' == hash ) {
-          changeTab(hash);
-        }
-    
-      $('.tabs a').click(function(e) {
-        changeTab(this.hash);
-      });
     }
   };
 })(jQuery);

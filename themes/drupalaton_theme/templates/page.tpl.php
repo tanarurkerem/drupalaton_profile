@@ -7,16 +7,22 @@
     </div> <!-- #navigation -->
   <?php endif; ?>
   <div class="landscape">
-    <div class="clouds">
-      <div class="cloud cloud1"></div>
-      <div class="cloud cloud2"></div>
-      <div class="cloud cloud3"></div>
-      <div class="cloud cloud4"></div>
-    </div>
-    <div class="hills"></div>
-    <div class="boats">
+   <div class="hills"></div>
+    <div class="boats scrollorama ">
       <div id="smallboat" class="boat small"></div>
       <div id="bigboat" class="boat big"></div>
+    </div>
+    <div class="clouds scrollorama">
+      <div id="cloud1" class="cloud cloud1 cloud-left"></div>
+      <div class="cloud cloud2 cloud-left"></div>
+      <div class="cloud cloud3 cloud-left"></div>
+      <div class="cloud cloud4 cloud-left"></div>
+      <div class="cloud cloud5 cloud-right"></div>
+      <div class="cloud cloud6 cloud-right"></div>
+      <div class="cloud cloud7 cloud-right"></div>
+      <div class="cloud cloud8 cloud-right"></div>
+      <div class="cloud cloud9 cloud-right"></div>
+      <div class="cloud cloud10 cloud-right"></div>
     </div>
     <div class="logo">
       <div class="logo-inner">
