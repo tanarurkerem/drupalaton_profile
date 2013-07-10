@@ -975,7 +975,7 @@ html {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\0000310}}
-section ul li {
+.node ul li {
   font-family: "Open Sans", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   line-height: 160%;
   font-size: 20px;
@@ -1273,10 +1273,10 @@ body.not-front .landscape {
 body.not-front .hills {
   background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
   display: block;
-  height: 96px;
+  height: 162px;
   width: 745px;
   position: absolute;
-  top: 162px;
+  top: 109px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/csakiistvan\/Drupart\/drupalaton\/www\/profiles\/drupalaton_profile\/themes\/drupalaton_theme\/sass\/_drupalaton\.scss}line{font-family:\00003280}}
 body.not-front .boats {

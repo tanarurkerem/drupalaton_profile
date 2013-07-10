@@ -6,7 +6,7 @@ html {
   font-size: $base-font-size;
 }
 
-section {
+.node {
   ul li {
     font-family: $base-font-family;
     line-height: 160%;
@@ -272,10 +272,10 @@ body.not-front {
   .hills {
     background: url("../img/hills.png") no-repeat scroll 0 0 transparent;
     display: block;
-    height: 96px;
+    height: 162px;
     width: 745px;
     position: absolute;
-    top: 162px;
+    top: 109px;
   }
   .boats {
     width: 100%;
