@@ -37,10 +37,10 @@
         addclasstonav();
         
         scrollorama
-        .animate('#bigboat', { delay: -640, duration: 800, property: 'left', start: -10, end: 600  })
-        .animate('#smallboat', { delay: -550, duration: 700, property: 'left', start: -10, end: 600  })
-        .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 240, end: 650  })
-        .animate('.cloud2', { delay: 0, duration: 1200, property: 'left', start: 440, end: 650  })
+        .animate('#bigboat', { delay: -640, duration: 1200, property: 'left', start: 100, end: 900  })
+        .animate('#smallboat', { delay: -550, duration: 1200, property: 'left', start: 200, end: 850  })
+        .animate('.cloud1', { delay: 0, duration: 1200, property: 'left', start: 0, end: 650  })
+        .animate('.cloud2', { delay: 0, duration: 1200, property: 'left', start: 60, end: 650  })
         .animate('.cloud3', { delay: 0, duration: 1200, property: 'left', start: 740, end: 650  })
         .animate('.cloud4', { delay: 0, duration: 1200, property: 'left', start: 1100, end: 650  })
         .animate('.cloud5', { delay: 0, duration: 1200, property: 'left', start: 350, end: 650  })

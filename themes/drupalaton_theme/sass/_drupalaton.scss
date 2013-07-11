@@ -209,7 +209,7 @@ body.front {
   .cloud {
     background-repeat: no-repeat;
     position: absolute;
-    top: 30px;
+    top: 10px;
   }
   .cloud-left {
     background-image: url("../img/cloud_left.svg");
@@ -225,6 +225,7 @@ body.front {
   .cloud2 {
     width: 122px;
     height: 52px;
+    top: 20px;
     background-size: 122px auto;
   }
   .cloud3 {
@@ -239,7 +240,7 @@ body.front {
     background-size: 166px auto;
   }
   .cloud5 {
-    top: 43px;
+    top: 0;
     width:142px;
     height: 60px;
     background-size: 142px auto;
