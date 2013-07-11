@@ -42,7 +42,7 @@ projects[diff][version] = 3.2
 projects[panels][version] = 3.3
 projects[panels][subdir] = contrib
 projects[codefilter][version] = 1.0
-projects[codefilter][subdir] = sontrib
+projects[codefilter][subdir] = contrib
 
 ; User interface
 projects[ckeditor][type] = "module"
