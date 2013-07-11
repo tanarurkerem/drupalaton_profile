@@ -6,6 +6,7 @@ php = 5.2.4
 version = 7.x-1.0
 project = drupalaton_ckeditor
 dependencies[] = ckeditor
+dependencies[] = codefilter
 dependencies[] = features
 dependencies[] = filter
 features[ckeditor_profile][] = Advanced
