@@ -471,7 +471,7 @@ body.front .sponsors {
         margin-top: 25px;
       }
       .tab-button {
-        width: 74%;
+        width: 90%;
         margin-top: 25px;
         
         a {
@@ -558,7 +558,10 @@ section {
 }
 
 .tab-button {
-  @include submit-button;
+  a {
+    @include submit-button;
+    padding: 14px 0;
+  }  
 }
 // about
 .about {
@@ -571,7 +574,7 @@ section {
 }
 .about-buttons {
   .tab-button {
-    width: 25%;
+    width: 31%;
     float: left;
     
     a {
