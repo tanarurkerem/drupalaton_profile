@@ -17,6 +17,9 @@ a {
   color: $links;
   text-decoration: none;
 }
+a.anchor {
+  color: $sectionsubtitle;
+}
 p {
   font-size: $base-font-size + 8;
   line-height: 140%;
@@ -371,7 +374,6 @@ body.not-front {
     color: $sectionsubtitle;
   }
 }
-
 .panel-pane  {
 
   h2 {
