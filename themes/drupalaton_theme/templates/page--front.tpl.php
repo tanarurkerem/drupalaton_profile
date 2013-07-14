@@ -8,7 +8,18 @@
   <?php endif; ?>
   <div class="landscape">
     <div class="hills"></div>
-
+    <div class="clouds scrollorama">
+      <div id="cloud1" class="cloud cloud1 cloud-left"></div>
+      <div class="cloud cloud2 cloud-left"></div>
+      <div class="cloud cloud3 cloud-left"></div>
+      <div class="cloud cloud4 cloud-left"></div>
+      <div class="cloud cloud5 cloud-right"></div>
+      <div class="cloud cloud6 cloud-right"></div>
+      <div class="cloud cloud7 cloud-right"></div>
+      <div class="cloud cloud8 cloud-right"></div>
+      <div class="cloud cloud9 cloud-right"></div>
+      <div class="cloud cloud10 cloud-right"></div>
+    </div>
     <div class="boats scrollorama ">
       <div id="smallboat" class="boat small"></div>
       <div id="bigboat" class="boat big"></div>
@@ -30,19 +41,6 @@
         <a itemprop="name" title="Drupalaton" href="/"></a>
       </div>
     </div>
-    <div class="clouds scrollorama">
-      <div id="cloud1" class="cloud cloud1 cloud-left"></div>
-      <div class="cloud cloud2 cloud-left"></div>
-      <div class="cloud cloud3 cloud-left"></div>
-      <div class="cloud cloud4 cloud-left"></div>
-      <div class="cloud cloud5 cloud-right"></div>
-      <div class="cloud cloud6 cloud-right"></div>
-      <div class="cloud cloud7 cloud-right"></div>
-      <div class="cloud cloud8 cloud-right"></div>
-      <div class="cloud cloud9 cloud-right"></div>
-      <div class="cloud cloud10 cloud-right"></div>
-    </div>
-
   </div><!-- /.landscape-->
   
   <?php print $messages; ?>

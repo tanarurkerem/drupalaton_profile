@@ -98,7 +98,7 @@ body.front {
     position: relative;
     height: 100px;
     margin: 0;
-    top: 174px;
+    top: 174px !important;
   
     .boat {
       position: absolute;
@@ -285,7 +285,7 @@ body.not-front {
     position: relative;
     height: 100px;
     margin: 0;
-    top: 174px;
+    top: 174px !important;
   
     .boat {
       position: absolute;
