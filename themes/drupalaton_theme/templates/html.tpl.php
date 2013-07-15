@@ -17,8 +17,9 @@
   <meta property="og:url" content="http://www.drupalaton.hu">
   <meta property="og:title" content="Drupalaton">
   <meta property="og:description" content="Drupalaton">
-  <meta property="og:image" content="http://drupalaton.hu/themes/drupalaton/img/drup_facebook.png">
+  <meta property="og:image" content="http://drupalaton.hu/profiles/drupalaton_profile/themes/drupalaton_theme/img/drup_facebook.png">
   <!-- / FACEBOOK -->
+  <meta name="google-site-verification" content="OQkJo4hICfIbZbQxvcU6c3Z3GhbQaEmD7KIEwqXZjZM" />
   
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
