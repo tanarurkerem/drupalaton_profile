@@ -43,6 +43,8 @@ projects[panels][version] = 3.3
 projects[panels][subdir] = contrib
 projects[codefilter][version] = 1.0
 projects[codefilter][subdir] = contrib
+projects[google_analytics][version] = 1.3
+projects[google_analytics][subdir] = contrib
 
 ; User interface
 projects[ckeditor][type] = "module"
