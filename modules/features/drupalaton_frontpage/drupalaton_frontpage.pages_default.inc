@@ -142,10 +142,10 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '4',
-      'links' => 1,
+      'links' => 0,
       'leave_node_title' => 0,
       'identifier' => '',
-      'build_mode' => 'full',
+      'build_mode' => 'teaser',
       'link_node_title' => 0,
       'override_title' => 0,
       'override_title_text' => '',
@@ -156,7 +156,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'about',
       'css_class' => 'container_12 about',
     );
     $pane->extras = array();
@@ -187,7 +187,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'location',
       'css_class' => 'container_12 location',
     );
     $pane->extras = array();
@@ -218,7 +218,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'registration',
       'css_class' => 'container_12 registration',
     );
     $pane->extras = array();
@@ -235,10 +235,10 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '10',
-      'links' => 1,
+      'links' => 0,
       'leave_node_title' => 0,
       'identifier' => '',
-      'build_mode' => 'full',
+      'build_mode' => 'teaser',
       'link_node_title' => 0,
       'override_title' => 0,
       'override_title_text' => '',
@@ -249,7 +249,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'accomodation',
       'css_class' => 'container_12 accomodation',
     );
     $pane->extras = array();
@@ -280,7 +280,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'sessionproposal',
       'css_class' => 'container_12 sessionproposal',
     );
     $pane->extras = array();
@@ -297,10 +297,10 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '15',
-      'links' => 1,
+      'links' => 0,
       'leave_node_title' => 0,
       'identifier' => '',
-      'build_mode' => 'full',
+      'build_mode' => 'teaser',
       'link_node_title' => 0,
       'override_title' => 0,
       'override_title_text' => '',
@@ -311,7 +311,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'sponsor',
       'css_class' => 'container_12 sponsor',
     );
     $pane->extras = array();
@@ -342,7 +342,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'style' => 'rounded_corners',
     );
     $pane->css = array(
-      'css_id' => '',
+      'css_id' => 'contactmin',
       'css_class' => 'container_12 contactmin',
     );
     $pane->extras = array();
