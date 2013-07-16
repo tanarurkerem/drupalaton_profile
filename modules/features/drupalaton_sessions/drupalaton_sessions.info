@@ -1,0 +1,13 @@
+name = Sessions
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = drupalaton_sessions
+dependencies[] = fe_nodequeue
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[fe_nodequeue][] = sessions
+features[features_api][] = api:1
+features[views_view][] = sessions
+features_exclude[dependencies][ctools] = ctools
+project path = profiles/drupalaton_profile/modules/features
