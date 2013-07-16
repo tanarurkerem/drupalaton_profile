@@ -47,6 +47,10 @@ projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = contrib
+projects[features_extra][version] = 7.x-1.0-beta1
+projects[features_extra][subdir] = contrib
+projects[module_filter][version] = 7.x-1.7
+projects[module_filter][subdir] = contrib
 
 ; User interface
 projects[ckeditor][type] = "module"
