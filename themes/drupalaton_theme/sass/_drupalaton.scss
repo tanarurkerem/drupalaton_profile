@@ -505,30 +505,6 @@ body.node-type-speaker {
   }
 }
 
-
-/*.tabs {
-  padding-top: 1em;
-  height: 46px;
-
-  h2 {
-    position: relative;
-    display: block;
-    width: 30%;
-    float: left;
-    margin: 0;
-    margin-right: 3%;
-
-    a {
-      @include tab-button;
-    }
-    &.middle {
-    }
-
-    &.last {
-      margin-right: 0;
-    }
-  }
-}*/
 p.price {
   display: none;
 }
@@ -969,57 +945,83 @@ table.program {
       color: #fff;
     }
   }
-  .landscape {
-    height: 492px;
-
+  body.front {
     .hills {
       width: 100%;
-      background-position: -392px 0;
+      background-position: -392px 0;    
     }
     .logo {
       top: 196px;
       right: 0;
-
-      .logo-inner {
+      position: relative;
+      text-align: left;
+    }
+    .landscape {
+      height: 492px;
+  
+      .hills {
+        width: 100%;
+        background-position: -392px 0;
+      }
+      .logo {
+        top: 196px;
+        right: 0;
+  
+        .logo-inner {
+          width: 100%;
+          max-width: 599px;
+          padding: 0;
+  
+          img {
+            margin: 0 30px 0 0;
+            width: 280px;
+          }
+        }
+      }
+      .info {
+        height: 262px;
+        margin-top: 0;
+  
+        h1 {
+          width: 100%;
+          max-width: 500px;
+  
+          span {
+            background-size: 89% auto;
+            background-position: 18px 0;
+            margin-left: 0;
+            width: 100%;
+          }
+        }
+      }
+      .lake {
+        height: 492px;
+      }
+      .logo-link-inner {
         width: 100%;
         max-width: 599px;
-        padding: 0;
-
-        img {
-          margin: 0 30px 0 0;
-          width: 280px;
+  
+        a {
+          right: 17px;
+          top: 193px;
         }
       }
     }
-    .info {
-      height: 262px;
-      margin-top: 0;
-
-      h1 {
-        width: 100%;
-        max-width: 500px;
-
-        span {
-          background-size: 89% auto;
-          background-position: 18px 0;
-          margin-left: 0;
-          width: 100%;
-        }
+    .sponsors {
+      h3 {
+        float: none;
       }
-    }
-    .lake {
-      height: 492px;
-    }
-    .logo-link-inner {
-      width: 100%;
-      max-width: 599px;
-
-      a {
-        right: 17px;
-        top: 193px;
+      .views-row {
+        float: none;
+        margin: 10px 0;
       }
     }
   }
+  .clouds,
+  .boats {
+    display: none;
+  }
+
 
   .tabs {
     height: auto;
@@ -1082,8 +1084,9 @@ table.program {
   .navigation {
     height: auto;
   }
-  .content h2.section-title {
-    font-size: $base-font-size * 3;
+  h2.section-title,
+  .panel-pane h2.pane-title {
+    font-size: $base-font-size * 2;
   }
   .about .event-data {
     padding-bottom: 180px;
@@ -1119,6 +1122,26 @@ table.program {
       padding-right: 20px;
       font-size: $base-font-size *2+4;
       line-height: 120%;
+    }
+  }
+  .panels-flexible-row-2-main-row .keynote .speaker-name {
+    font-size: $base-font-size *2;
+  }
+  .rounded-corner .wrap-corner .r-edge {
+    padding: 5px 10px;
+    width: 95%;
+  }
+  .panels-flexible-row-2-main-row .keynote .user {
+    float: none;
+    margin: 30px 0 0;
+  }
+  .about-buttons .tab-button {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+    
+    &.center {
+      margin: 10px 0;
     }
   }
 }
