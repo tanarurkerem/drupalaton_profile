@@ -1016,6 +1016,7 @@ table.program {
         margin: 10px 0;
       }
     }
+    
   }
   .clouds,
   .boats {
@@ -1133,7 +1134,11 @@ table.program {
   }
   .panels-flexible-row-2-main-row .keynote .user {
     float: none;
+    width: 100%;
     margin: 30px 0 0;
+  }
+  .panels-flexible-row-2-main-row .keynote .user .tab-button {
+    width: 100%;
   }
   .about-buttons .tab-button {
     width: 100%;
