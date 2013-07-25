@@ -13,6 +13,12 @@ html {
     font-size: $base-font-size + 6;
   }
 }
+.pane-content {
+  li {
+    font-size: $base-font-size + 8;
+    line-height: 140%;
+  }
+}
 a {
   color: $links;
   text-decoration: none;
@@ -35,6 +41,9 @@ h1.title {
   line-height: 100%;
   text-transform: uppercase;
   color: $sectiontitle;   
+}
+h1#page-title {
+  margin-top: 50px;
 }
 /**
  * navigation
@@ -402,9 +411,6 @@ body.not-front {
 }
 // node page 
 body.page-node {
-  h1.title {
-    margin-top: 50px;
-  }
   .node {
     position: relative;
   }
@@ -762,46 +768,77 @@ table {
   width: 100%;
   
   thead {
+    
     th {
-      padding: 10px;
+      padding: 0;
+      border-bottom: 0;
+      
+      span {
+        background-color: $tabletimetd;
+        color: #fff;
+        padding: 10px;
+        display: table-cell;
+      }
     }
   }
   tbody {
     border-top: 0;
     
-    td {
-      padding: 10px;
-      
-    }
     tr {
       border-bottom: 0;
-      
-      /*&:hover {        
-        td {
-          background-color: $orange;
-          transition: background-color 0.6s ease 0s;
+      background-color: transparent;
+
+      td {
+        padding: 10px;
+        border-width: 4px 2px;
+        border-style: solid;
+        border-color: #fff;
+        background-color: $tabletd;
+        color: #fff;
+        font-weight: normal;
+        font-size: 20px;
+        vertical-align: top;
+        
+        a {
           color: #fff;
-          
-          a {
-            color: #fff;
-            text-decoration: underline;
-          }
+        }
+        &.hide {
+          background-color: $tabletd-80;
+          color: $tabletd-35;
+        }
+        &.time {
+          background-color: $tabletimetd;
+          font-weight: normal;
+          width: 15%;
+        }
+        &.time.hide {
+          color: #fff;
         }
       }
-      */
+            
+       
+      td:hover {
+        background-color: $orange;
+        transition: background-color 0.6s ease 0s;
+        color: #fff;
+        
+        a {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
     }
-    tr:nth-child(odd) {
-      background-color: #ECF0F1;
-      border-bottom: 0;
-    }
-    tr:nth-child(even) {
-      background-color: #BDC3C7;
+    tr:nth-child(odd), 
+    tr:nth-child(even){
+      background-color: transparent;
       border-bottom: 0;
     }
   }
 }
 
 table.program {
+  margin: 15px 0;
+  
   thead th{
     &.name {
       width: 22%;
@@ -958,6 +995,66 @@ table.program {
     display: block;
   }
 }
+
+// Sessions view in schedule page
+.view-sessions {
+  * {
+    line-height: 100%;
+  }
+  p {
+    line-height: 140%;
+  }
+  .views-row {
+    margin-bottom: 60px;
+    border-bottom: 4px solid $tabletd;
+    padding-bottom: 35px;
+  }
+  .views-row-1 {
+    margin-top: 50px;
+  }
+  .views-field-field-speaker-session-title {
+    color: $orange;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: $oswald;
+    line-height: 100%;
+  }
+  .views-field-field-speaker-session-type {
+    font-size: 22px;
+    font-family: $oswald;
+    color: $tabletd-40;
+    text-transform: uppercase;
+  }
+  .views-field-field-speaker-session-summary {
+    
+  }
+  .views-field-title {
+    color: $tabletd;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: $oswald;
+    line-height: 140%;
+    font-weight: bold;
+    
+    a {
+      color: $tabletd;
+    }
+  }
+  .views-field-field-speaker-job-title {
+    font-size: 22px;
+    font-family: $oswald;
+    color: $tabletd-40;
+    text-transform: uppercase;    
+  }
+  .views-field-field-speaker-photo {
+    float: left;
+    margin: 0 15px 15px 0;
+  }
+  .views-field-body {
+    
+  }
+}
+
 // landscape ipad tablet
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
 
