@@ -262,7 +262,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
     $pane->panel = 'bottom';
     $pane->type = 'node';
     $pane->subtype = 'node';
-    $pane->shown = TRUE;
+    $pane->shown = FALSE;
     $pane->access = array();
     $pane->configuration = array(
       'nid' => '14',
@@ -371,7 +371,7 @@ function drupalaton_frontpage_default_page_manager_pages() {
       'url' => '',
       'display' => 'default',
       'override_title' => 1,
-      'override_title_text' => 'Keynote Spekaers',
+      'override_title_text' => 'Keynote Speakers',
     );
     $pane->cache = array();
     $pane->style = array(

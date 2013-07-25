@@ -1,10 +1,12 @@
 name = Sessions
 core = 7.x
 package = Features
+php = 5.2.4
 version = 7.x-1.0
 project = drupalaton_sessions
 dependencies[] = fe_nodequeue
 dependencies[] = views
+dependencies[] = views_content
 features[ctools][] = views:views_default:3.0
 features[fe_nodequeue][] = sessions
 features[features_api][] = api:1

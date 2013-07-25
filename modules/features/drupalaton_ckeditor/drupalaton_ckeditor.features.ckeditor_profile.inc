@@ -77,9 +77,7 @@ function drupalaton_ckeditor_ckeditor_profile_defaults() {
           ),
         ),
       ),
-      'input_formats' => array(
-        'filtered_html' => 'Filtered HTML',
-      ),
+      'input_formats' => array(),
     ),
   );
   return $data;

@@ -51,6 +51,8 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['field_speaker_session_title']['table'] = 'field_data_field_speaker_session_title';
   $handler->display->display_options['fields']['field_speaker_session_title']['field'] = 'field_speaker_session_title';
   $handler->display->display_options['fields']['field_speaker_session_title']['label'] = '';
+  $handler->display->display_options['fields']['field_speaker_session_title']['alter']['alter_text'] = TRUE;
+  $handler->display->display_options['fields']['field_speaker_session_title']['alter']['text'] = '<div id="speaker-[nid]">[field_speaker_session_title]</div>';
   $handler->display->display_options['fields']['field_speaker_session_title']['element_label_colon'] = FALSE;
   /* Field: Content: Session type */
   $handler->display->display_options['fields']['field_speaker_session_type']['id'] = 'field_speaker_session_type';
@@ -64,6 +66,18 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['field_speaker_session_summary']['field'] = 'field_speaker_session_summary';
   $handler->display->display_options['fields']['field_speaker_session_summary']['label'] = '';
   $handler->display->display_options['fields']['field_speaker_session_summary']['element_label_colon'] = FALSE;
+  /* Field: Content: Photo */
+  $handler->display->display_options['fields']['field_speaker_photo']['id'] = 'field_speaker_photo';
+  $handler->display->display_options['fields']['field_speaker_photo']['table'] = 'field_data_field_speaker_photo';
+  $handler->display->display_options['fields']['field_speaker_photo']['field'] = 'field_speaker_photo';
+  $handler->display->display_options['fields']['field_speaker_photo']['label'] = '';
+  $handler->display->display_options['fields']['field_speaker_photo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_speaker_photo']['hide_empty'] = TRUE;
+  $handler->display->display_options['fields']['field_speaker_photo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_speaker_photo']['settings'] = array(
+    'image_style' => 'keynote_speaker',
+    'image_link' => '',
+  );
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -78,17 +92,6 @@ function drupalaton_sessions_views_default_views() {
   $handler->display->display_options['fields']['field_speaker_job_title']['field'] = 'field_speaker_job_title';
   $handler->display->display_options['fields']['field_speaker_job_title']['label'] = '';
   $handler->display->display_options['fields']['field_speaker_job_title']['element_label_colon'] = FALSE;
-  /* Field: Content: Photo */
-  $handler->display->display_options['fields']['field_speaker_photo']['id'] = 'field_speaker_photo';
-  $handler->display->display_options['fields']['field_speaker_photo']['table'] = 'field_data_field_speaker_photo';
-  $handler->display->display_options['fields']['field_speaker_photo']['field'] = 'field_speaker_photo';
-  $handler->display->display_options['fields']['field_speaker_photo']['label'] = '';
-  $handler->display->display_options['fields']['field_speaker_photo']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_speaker_photo']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_speaker_photo']['settings'] = array(
-    'image_style' => 'keynote_speaker',
-    'image_link' => '',
-  );
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
@@ -118,6 +121,9 @@ function drupalaton_sessions_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block_1');
   $handler->display->display_options['block_description'] = 'Sessions';
+
+  /* Display: Content pane */
+  $handler = $view->new_display('panel_pane', 'Content pane', 'panel_pane_1');
   $export['sessions'] = $view;
 
   return $export;
