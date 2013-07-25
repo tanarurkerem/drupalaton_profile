@@ -373,6 +373,12 @@ body.not-front {
     text-transform: uppercase;
     color: $sectionsubtitle;
   }
+  .field-label {
+    margin: 25px 0 10px 0;
+  }
+  .field-items {
+    margin-bottom: 10px;
+  }
 }
 .panel-pane  {
 
@@ -511,6 +517,10 @@ body.node-type-speaker {
   }
   .field-name-field-speaker-job-title {
     margin: 40px 0 0 0;
+    
+    .field-label {
+      margin: 0;
+    }
   }
   .field-label,
   .field-item {
@@ -518,6 +528,18 @@ body.node-type-speaker {
   }
 }
 
+// edit pages
+body.page-node-edit {
+  .field-name-field-speaker-photo {
+    float: none;
+    margin: 20px 0;
+  }  
+  .field-name-field-sponsor-logo {
+    position: relative;
+    margin-top: 0;
+    left: 0;
+  }
+}
 p.price {
   display: none;
 }
@@ -737,6 +759,7 @@ div.social {
 
 table {
   font-size: $base-font-size + 4;
+  width: 100%;
   
   thead {
     th {
@@ -753,7 +776,7 @@ table {
     tr {
       border-bottom: 0;
       
-      &:hover {        
+      /*&:hover {        
         td {
           background-color: $orange;
           transition: background-color 0.6s ease 0s;
@@ -765,6 +788,7 @@ table {
           }
         }
       }
+      */
     }
     tr:nth-child(odd) {
       background-color: #ECF0F1;
@@ -778,9 +802,15 @@ table {
 }
 
 table.program {
-  thead th:first-child {
-    width: 15%;
+  thead th{
+    &.name {
+      width: 22%;
+    }
+    &:first-child {
+      width: 15%;
+    }
   }
+  
 }
 
 /**
