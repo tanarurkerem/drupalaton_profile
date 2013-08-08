@@ -916,6 +916,14 @@ body.page-sponsors{
     &:last-child {
       border-bottom: 0;
     }
+    
+    .sor {
+      border-bottom: 1px solid $tabletd-35;
+      
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
   }
 }
 // big screen
