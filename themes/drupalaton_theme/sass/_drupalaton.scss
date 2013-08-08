@@ -445,16 +445,33 @@ body.front .sponsors {
   .view-content div:first-child h3 {
     margin-top: 20px;
   }
-  .view-content .sponsor-row:nth-child(1) h3 {
-     margin-top: 31px;
+  .view-content {
+    position: relative;
+    margin-top: 20px;
+    
+    .sponsor-row:nth-child(1){ 
+      
+      h3 {
+         margin-top: 31px;
+      }
+    }
+    .sponsor-row:nth-child(2) {
+      position: absolute;
+      top: 14px;
+      left: 290px;
+    }
+    .sponsor-row:nth-child(3) {
+      @include clearfix;
+      
+      h3 {
+        font-size: $base-font-size +5;
+        margin-right: 30px;
+      }
+    }
+    .sponsor-row:last-child {
+      margin-bottom: 0;
+    }
   }
-  .view-content .sponsor-row:nth-child(2) h3 {
-     font-size: $base-font-size +5;
-     margin-right: 30px;
-  }
-  .view-content .sponsor-row:last-child {
-    margin-bottom: 0;
-  }  
 }
 // keynote
 .panels-flexible-row-2-main-row {
