@@ -30,6 +30,7 @@ function drupalaton_sponsor_field_default_field_bases() {
         'diamond' => 'Diamond',
         'gold' => 'Gold',
         'silver' => 'Silver',
+        'media' => 'Media partner',
       ),
       'allowed_values_function' => '',
     ),

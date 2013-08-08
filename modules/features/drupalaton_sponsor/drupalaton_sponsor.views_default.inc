@@ -77,6 +77,45 @@ function drupalaton_sponsor_views_default_views() {
 
   /* Display: Content pane */
   $handler = $view->new_display('panel_pane', 'Content pane', 'panel_pane_1');
+
+  /* Display: Page */
+  $handler = $view->new_display('page', 'Page', 'page_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Field: Content: Logo */
+  $handler->display->display_options['fields']['field_sponsor_logo']['id'] = 'field_sponsor_logo';
+  $handler->display->display_options['fields']['field_sponsor_logo']['table'] = 'field_data_field_sponsor_logo';
+  $handler->display->display_options['fields']['field_sponsor_logo']['field'] = 'field_sponsor_logo';
+  $handler->display->display_options['fields']['field_sponsor_logo']['label'] = '';
+  $handler->display->display_options['fields']['field_sponsor_logo']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_sponsor_logo']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_sponsor_logo']['settings'] = array(
+    'image_style' => '',
+    'image_link' => 'content',
+  );
+  /* Field: Content: Category */
+  $handler->display->display_options['fields']['field_sponsor_category']['id'] = 'field_sponsor_category';
+  $handler->display->display_options['fields']['field_sponsor_category']['table'] = 'field_data_field_sponsor_category';
+  $handler->display->display_options['fields']['field_sponsor_category']['field'] = 'field_sponsor_category';
+  $handler->display->display_options['fields']['field_sponsor_category']['label'] = '';
+  $handler->display->display_options['fields']['field_sponsor_category']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_sponsor_category']['element_label_colon'] = FALSE;
+  /* Field: Content: Body */
+  $handler->display->display_options['fields']['body']['id'] = 'body';
+  $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
+  $handler->display->display_options['fields']['body']['field'] = 'body';
+  $handler->display->display_options['fields']['body']['label'] = '';
+  $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['body']['type'] = 'text_summary_or_trimmed';
+  $handler->display->display_options['fields']['body']['settings'] = array(
+    'trim_length' => '600',
+  );
+  $handler->display->display_options['path'] = 'sponsors';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'Sponsors';
+  $handler->display->display_options['menu']['weight'] = '0';
+  $handler->display->display_options['menu']['name'] = 'main-menu';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
   $export['sponsors'] = $view;
 
   return $export;

@@ -21,7 +21,7 @@ function drupalaton_ckeditor_ckeditor_profile_defaults() {
     [\'Styles\',\'Bold\',\'Italic\',\'Underline\'],
     [\'NumberedList\',\'BulletedList\'],
     [\'JustifyCenter\',\'JustifyLeft\',\'JustifyRight\'],
-    [\'PasteFromWord\',\'Link\',\'Unlink\',\'Image\']
+    [\'PasteFromWord\',\'Link\',\'Unlink\',\'Image\',\'DrupalBreak\']
 ]',
         'expand' => 't',
         'width' => '100%',
