@@ -1197,6 +1197,11 @@ body.page-sponsors{
       }
     }
     .sponsors {
+      .sponsor-row:nth-child(2) {
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+      }
       h3 {
         float: none;
       }
