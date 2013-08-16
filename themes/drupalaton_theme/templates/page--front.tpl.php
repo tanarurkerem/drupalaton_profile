@@ -1,14 +1,25 @@
-<div id="live" class="oneday">
+<div id="live" class="twoday">
   <div class="inner">
-    <a href="/broadcast/workshop">
+    <a href="/broadcast/session-a">
       <div class="icon"></div>
       <div class="text">
-          <div class="day">
-            FRIDAY
-          </div>
-          <div class="dayname">
-            WORKSHOP DAY
-          </div>
+        <div class="day">
+          SATURDAY
+        </div>
+        <div class="dayname">
+          SESSIONS A
+        </div>
+      </div>  
+    </a>
+    <a href="/broadcast/session-b">
+      <div class="icon"></div>
+      <div class="text">
+        <div class="day">
+          SATURDAY
+        </div>
+        <div class="dayname">
+          SESSIONS B
+        </div>
       </div>  
     </a>
   </div>  
