@@ -1,30 +1,3 @@
-<div id="live" class="twoday">
-  <div class="inner">
-    <a href="/broadcast/session-a">
-      <div class="icon"></div>
-      <div class="text">
-        <div class="day">
-          SATURDAY
-        </div>
-        <div class="dayname">
-          SESSIONS A
-        </div>
-      </div>  
-    </a>
-    <a href="/broadcast/session-b">
-      <div class="icon"></div>
-      <div class="text">
-        <div class="day">
-          SATURDAY
-        </div>
-        <div class="dayname">
-          SESSIONS B
-        </div>
-      </div>  
-    </a>
-  </div>  
-</div>
-
 <div class="global">
   <?php if ($main_menu): ?>
     <div class="navigation">
