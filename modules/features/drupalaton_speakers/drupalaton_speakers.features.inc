@@ -38,38 +38,6 @@ function drupalaton_speakers_custom_pub_defaults() {
 }
 
 /**
- * Implements hook_image_default_styles().
- */
-function drupalaton_speakers_image_default_styles() {
-  $styles = array();
-
-  // Exported image style: keynote_speaker.
-  $styles['keynote_speaker'] = array(
-    'name' => 'keynote_speaker',
-    'effects' => array(
-      1 => array(
-        'label' => 'Scale and crop',
-        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
-        'effect callback' => 'image_scale_and_crop_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'image_resize_form',
-        'summary theme' => 'image_resize_summary',
-        'module' => 'image',
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => 280,
-          'height' => 226,
-        ),
-        'weight' => 1,
-      ),
-    ),
-    'label' => 'keynote_speaker',
-  );
-
-  return $styles;
-}
-
-/**
  * Implements hook_node_info().
  */
 function drupalaton_speakers_node_info() {
