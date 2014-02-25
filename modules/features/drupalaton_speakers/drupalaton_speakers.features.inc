@@ -64,6 +64,7 @@ function drupalaton_speakers_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'keynote_speaker',
   );
 
   return $styles;

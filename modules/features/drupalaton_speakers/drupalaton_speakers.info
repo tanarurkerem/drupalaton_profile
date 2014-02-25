@@ -10,6 +10,7 @@ dependencies[] = custom_pub
 dependencies[] = features
 dependencies[] = image
 dependencies[] = list
+dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = views
