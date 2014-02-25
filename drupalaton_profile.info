@@ -34,3 +34,4 @@ dependencies[] = drupalaton_ckeditor
 dependencies[] = drupalaton_frontpage
 dependencies[] = drupalaton_sponsor
 dependencies[] = drupalaton_speakers
+dependencies[] = drupalaton_sessions
