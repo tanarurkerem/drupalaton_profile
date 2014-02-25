@@ -49,8 +49,12 @@ projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = contrib
 projects[features_extra][version] = 1.0-beta1
 projects[features_extra][subdir] = contrib
-projects[module_filter][version] = 1.7
+projects[module_filter][version] = 2.0-alpha2
 projects[module_filter][subdir] = contrib
+projects[entity][version] = 1.3
+projects[entity][subdir] = contrib
+projects[profile2][version] = 1.3
+projects[profile2][subdir] = contrib
 
 ; User interface
 projects[ckeditor][type] = "module"
