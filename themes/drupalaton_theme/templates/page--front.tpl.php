@@ -33,7 +33,7 @@
     <div class="info">
       <h1>
         <span></span>
-        Drupalaton, August 15-18, 2013, Hotel Helikon, Keszthely
+        Drupalaton, August 7-10, 2014, Hotel Helikon, Keszthely
       </h1>
     </div>
     <div class="logo-link">
