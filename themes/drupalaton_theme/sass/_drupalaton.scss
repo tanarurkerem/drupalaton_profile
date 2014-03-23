@@ -146,7 +146,7 @@ body.front {
       margin: 0 auto;
     }
     .logo-inner {
-      width: 960px;
+      //width: 960px;
       margin: 0 auto;
       padding: 0 $dekstopgutter;
     }
@@ -173,27 +173,22 @@ body.front {
         height: 100%;
         position: absolute;
         width: 100%;
-        background-image: url("../img/big_typo.svg");
+        background-image: url("../img/big_typo.png");
+        
       }
     }
   }
   .logo-link {
     width: 100%;
-  
-    .logo-link-inner {
-      width: 960px;
-      margin: 0 auto;
-      position: relative;
-  
-      a {
-        height: 74px;
-        width: 345px;
-        position: absolute;
-        right: 0;
-        top: 190px;
-        display: block;
-      }
-    }
+
+    a {
+      height: 74px;
+      width: 345px;
+      position: absolute;
+      right: 0;
+      top: 190px;
+      display: block;
+    }  
   }
   .rounded-corner .wrap-corner {
     background-color: transparent !important;
@@ -1043,6 +1038,21 @@ body.page-sponsors{
   p.price {
     display: block;
   }
+  body.front {
+    .info h1 {
+      width: 90%;
+    }
+    .panels-flexible-row-last .container_12 {
+      padding: 0 40px;
+      width: 90%;
+    }
+  }
+  .about-buttons .tab-button {
+    width: 29%;
+  }
+  body.front .logo .logo-inner {
+    width: 80%;
+  }
 }
 
 // Sessions view in schedule page
@@ -1309,6 +1319,16 @@ body.page-sponsors{
       padding: 0 20px;
     }
   }
+  body.front {
+    .panels-flexible-row-last .container_12 {
+      padding: 0 20px;
+      width: 90%;
+    }
+  }
+  .event-data {
+    background-image:none;
+  }
+
   .twitter span,
   .newsletter form {
     padding: 0 20px;
