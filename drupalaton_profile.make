@@ -5,6 +5,7 @@ defaults[projects][subdir] = "contrib"
 
 ; core
 projects[drupal][type] = core
+projects[drupal][version] = 7.28
 
 ; drupalaton_profile
 projects[drupalaton][type] = profile
